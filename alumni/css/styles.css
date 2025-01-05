@@ -1,0 +1,62 @@
+:root {
+    --darkblue : #242A56;
+    --lightblue : #749BE7;
+    --bg : #EFF2FF;
+    --gradient : linear-gradient(to bottom right, #2a305f,#242a5652);
+    --bold : 600;
+    --semi-bold : 500;
+}
+body{
+    
+    font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
+}
+
+.abt{
+    font-family: 'Playfair Display', serif;
+    background-color: var(--bg);
+    color: black;
+    max-width: 90%;
+    height: 100vh;
+    overflow-x: hidden;
+    padding: 10px 0;
+
+}
+.loc{
+    text-align: center;
+}
+.loc img{
+    
+    height: 150px;
+    width: 300px;
+}
+.abt h1, .abt h2, .abt p{
+    margin: 10px;
+}
+.title{
+    text-align:left;
+    margin: auto;
+
+}
+.title h1{
+    text-align: center;
+    font-size: 2rem;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+.abt h1{
+    text-align: center;
+}
+.abt p{
+    justify-content: center;
+    font-size: 18px;
+
+}
+
+.title{
+    background-color: #242A56;
+    color: #EFF2FF;
+}    
+        
+    
+
